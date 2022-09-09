@@ -36,3 +36,12 @@
         @include flex (center, space-around, wrap);
     }
 }
+
+
+@media screen and(max-width: 375px) {
+    .review {
+      &__info{
+        margin-left: 30px;
+      }
+    }
+  }

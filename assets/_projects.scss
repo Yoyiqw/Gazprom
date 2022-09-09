@@ -29,3 +29,18 @@
         @include flex (center, space-around, wrap)
     }
 }
+
+
+@media screen and(max-width: 368px) {
+    .projects {
+      &__stick {
+        margin-left: 150px;
+      }
+      &__arena {
+        margin-left: 100px;
+      }
+      &__description {
+        text-align: center;
+        }
+    }
+  }

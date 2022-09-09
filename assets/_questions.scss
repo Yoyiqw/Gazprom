@@ -19,3 +19,38 @@
     }
 
 }
+
+
+@media screen and(max-width: 608px) {
+    .questions {
+      &__item {
+        justify-content: center;
+      }
+      &__info{
+        text-align: center;
+      }
+    }
+  }
+  
+  
+@media screen and(max-width: 827px) {
+  .questions {
+    &__item {
+      justify-content: center;
+    }
+    &__info {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and(max-width: 1122px) {
+  .questions {
+    &__item {
+      justify-content: center;
+    }
+    &__info {
+      text-align: center;
+    }
+  }
+}

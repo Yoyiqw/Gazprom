@@ -1,7 +1,16 @@
-.photo{
+.photo {
     margin: 0 auto;
+
     &__row {
         display: flex;
         margin-top: 150px;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        width: 25%;
+    }
+    &__test {
+        width: 100%;
     }
 }

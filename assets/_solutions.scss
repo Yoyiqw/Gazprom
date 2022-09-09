@@ -37,6 +37,32 @@
         display: flex;
         align-items: start;
         justify-content: space-between;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        padding: 30px 45px;
+    }
+}
+
+@media screen and (max-width:386px) {
+    .solutions {
+        &__title {
+            text-align: center;
+        }
+        &__description {
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:608px) {
+    .solutions {
+        &__title {
+            text-align: center;
+        }
+        &__description {
+            text-align: center;
+        }
+        &__test {
+            justify-content: center;
+        }
     }
 }

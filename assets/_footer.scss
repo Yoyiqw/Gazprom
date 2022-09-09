@@ -1,7 +1,7 @@
 .footer{
     &__bg {
         margin-top: 150px;
-        height:100px;
+        height:100%;
         background: #404149;
     }
     &__company {
@@ -18,3 +18,22 @@
         flex-wrap: wrap;
     }
 }
+
+
+@media screen and(max-width: 608px) {
+    .footer {
+      &__row {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content: flex-end;
+      }
+    }
+  }
+  
+@media screen and(max-width: 1122px) {
+    .footer {
+      &__row {
+        justify-content: space-around;
+      }
+    }
+  } 

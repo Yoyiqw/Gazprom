@@ -7,7 +7,7 @@
     &__row{
         text-align: center;
         margin-top: 60px;
-        @include flex (start, space-around, wrap)
+        @include flex (baseline, space-between, wrap)
     }
     &__addres {
         @include font (500, 24px, $text-gray);
@@ -19,9 +19,34 @@
         margin: 0 auto;
     }
     &__photo {
-        margin-bottom: 36px;
+        margin: 36px 0px
     }
     &__moree{
         @include font (500, 24px, $text-orange);
     }
+    &__photos {
+        margin: 36px 0px;
+    }
+    &__item {
+        width: auto;
+    }
 }
+
+@media screen and(max-width: 608px) {
+    .info {
+      &__item {
+        width: 50%;;
+      }
+    }
+  }
+  
+@media screen and(max-width: 826px) {
+    .info {
+      &__row{
+        justify-content: space-around; 
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: baseline;
+      }
+      }
+    }

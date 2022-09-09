@@ -8,7 +8,6 @@
     &__box{
         background:  #404149;
         width: 100%;
-        height: 364px;
         margin-top: 250px;
     }
     &__row{
@@ -17,3 +16,29 @@
         justify-content: space-around;
     }
 }
+
+@media screen and(max-width: 608px) {
+    .partners {
+      &__row {
+        flex-wrap: wrap;
+      }
+    }
+  }
+  
+@media screen and(max-width: 509px) {
+  .partners {
+    &__box{ 
+      
+      height: 100vh;
+    }
+    }
+  }
+  
+@media screen and(max-width: 826px) {
+  .partners {
+    &__row{
+      justify-content: space-evenly; 
+      flex-wrap: wrap;
+    }
+    }
+  }
