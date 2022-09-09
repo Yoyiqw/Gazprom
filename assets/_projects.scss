@@ -1,0 +1,31 @@
+.projects {
+    &__title {
+        @include font (500, 36px, $text-dark-gray);
+        margin-top: 100px;
+        text-align: center;
+    }
+    &__stick{
+        width: 44px;
+        height: 6px;
+        background: #F7654A;
+        margin-top: 45px;
+    }
+    &__arena{
+        @include font (500, 24px, $text-dark-gray);
+        width: 142px;
+        height: 29px;
+        margin-top: 15px;
+    }
+    &__photo{
+        margin-top: 60px;
+    }
+    &__description{
+        @include font (400, 16px, $text-gray);
+        width: 350px;
+        height: 83px;
+        margin-top: 20px;
+    }
+    &__row{
+        @include flex (center, space-around, wrap)
+    }
+}

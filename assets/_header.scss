@@ -1,0 +1,77 @@
+.header {
+  &__bg{
+    width: 100%; 
+    margin: 0 auto;
+    position: absolute;
+    z-index: -1;
+  }
+  &__icon{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__content {
+    padding: 20px 0px 0px 0px;
+  }
+  &__title{
+    max-width: 734px;
+    height: 174px;
+    @include font (500, 64px, $text-white);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 150px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase
+  }
+  &__description{
+    @include font (400, 18px, $text-white);
+    text-align: center;
+    margin-top: 35px;
+    text-transform: uppercase;
+  } 
+  &__date {
+      @include font (500, 72px, $text-orange);
+      text-transform: uppercase;      
+      width: 190px;
+  }
+  &__year {
+    @include font (500, 36px, $text-black);
+    text-transform: uppercase;
+    width: 190px;
+
+  }
+  &__market{
+    @include font (500, 18px, $text-gray);
+    width: 190px;
+  }
+  &__row {
+    background: #fff;
+    width: 1000px;
+    margin-top: 170px;
+    padding: 57px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  &__icon {
+    position: relative;
+  }
+  &__item {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media screen and( max-width: 320px) {
+  .header {
+    &__icon {
+      display: flex;
+    justify-content: space-around;
+    }
+  }
+  .menu {
+    &__box {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.footer{
+    &__bg {
+        margin-top: 150px;
+        height:100px;
+        background: #404149;
+    }
+    &__company {
+        @include font (400, 16px, $text-white);
+        padding: 30px 0px 30px;
+    }
+    &__studio {
+        @include font (400, 16px, $text-white);
+        padding: 30px 0px 30px;
+    }
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

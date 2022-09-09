@@ -1,0 +1,42 @@
+.solutions {
+    &__item {
+        background: #F7654A;
+        margin-top: 150px;
+    }
+
+    &__title {
+        @include font (700, 48px, $text-white);
+        padding-top: 30px;
+    }
+
+    &__description {
+        @include font (700, 24px, $text-white);
+        margin: 20px 0px 45px 0px;
+    }
+
+    &__btn {
+        width: 175px;
+        height: 49px;
+        text-align: center;
+        background: #fff;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+        margin-top: 73px;
+    }
+
+    &__request {
+        @include font (700, 14px, $text-black);
+        margin-left: 15px;
+    }
+
+    &__test {    
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+}
