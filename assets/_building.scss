@@ -36,3 +36,11 @@
       }
     }
   }
+  
+@media screen and(max-width: 699px) {
+    .building {
+      &__row {
+        justify-content: center;
+      }
+    }
+  }

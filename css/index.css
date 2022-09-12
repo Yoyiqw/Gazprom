@@ -414,6 +414,11 @@ img {
     justify-content: center;
   }
 }
+@media screen and (max-width: 699px) {
+  .building__row {
+    justify-content: center;
+  }
+}
 .photo {
   margin: 0 auto;
 }
